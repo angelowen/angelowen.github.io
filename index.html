@@ -11,7 +11,7 @@
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/apple-touch-icon-1.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -47,10 +47,11 @@
           <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
           <li><a class="nav-link scrollto " href="#portfolio">Projects</a></li>
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#"><span>Others</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li><a target= _blank href="https://drive.google.com/file/d/1Hg7F-z5SiE8dFnCua83ltgy4mQ7IPAWu/view?usp=sharing">Chiayi Food List</a></li>
+              <!-- <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -58,13 +59,10 @@
                   <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              </li> -->
+              <!-- <li><a href="#">Drop Down 2</a></li> -->
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -85,33 +83,33 @@
         </div>
       </div>
 
-      <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+      <div class="row gy-4 mt-5 justify-content-center" style="color:white" data-aos="zoom-in" data-aos-delay="250">
         <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
+          <div class="icon-box" onclick="window.open('https://github.com/angelowen')">
             <span class="iconify" style="font-size: 300%;"  data-icon="logos:github-octocat" data-inline="false"></span>
-            <h3><a href="https://github.com/angelowen">Github</a></h3>
+            <h3 >Github</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
+          <div class="icon-box" onclick="window.open('http://www2.cs.ccu.edu.tw/~wyb106u/Chiayi_foodmap/portfolio.html')">
             <span class="iconify" style="font-size: 300%;" data-icon="twemoji:pot-of-food" data-inline="false"></span>
-            <h3><a href="http://www2.cs.ccu.edu.tw/~wyb106u/Chiayi_foodmap/portfolio.html">Foodmap</a></h3>
+            <h3 >Foodmap</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
+          <div class="icon-box" onclick="location.href='#portfolio';">
             <i class="ri-calendar-todo-line"></i>
-            <h3><a href="#portfolio">Projects</a></h3>
+            <h3>Projects</h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
+          <div class="icon-box" onclick="location.href='#about';">
             <i class="ri-paint-brush-line"></i>
             <h3><a href="">About me</a></h3>
           </div>
         </div>
         <div class="col-xl-2 col-md-4">
-          <div class="icon-box">
+          <div class="icon-box" onclick="location.href='#'">
             <i class="ri-database-2-line"></i>
             <h3><a href="">Database</a></h3>
           </div>
@@ -246,14 +244,14 @@
         
 
 
-            <div class="card col-lg-4 col-md-6 portfolio-item filter-cv " style="width: 18rem;">
+            <div class="card col-lg-4 col-md-6 portfolio-item filter-img " style="width: 18rem;">
               <div class="portfolio-links">
                 <a href="https://i.imgur.com/g4tioBQ.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="https://i.imgur.com/g4tioBQ.png" alt="Card image cap"></a>
               </div>  
                 <div class="card-body">
                   <h5 class="card-title ">AICUP Object Dectect</h5>
                   <p class="card-text">Automatically recognize the text in the scene screen, which can be helpful for applications like scene understanding...</p>
-                  <a href="https://github.com/angelowen/2021_AICUP_ObjDectect" class="btn btn-primary">Watch Code</a>
+                  <a target="_blank" href="https://github.com/angelowen/2021_AICUP_ObjDectect" class="btn btn-primary">Watch Code</a>
                 </div>
             </div>
       
@@ -264,18 +262,18 @@
                 <div class="card-body">
                   <h5 class="card-title ">BERT Voice QA </h5>
                   <p class="card-text">Using AI voice technology and creativity, understanding language  semantics, and grammatical structure...</p>
-                  <a href="https://github.com/angelowen/AIFunCup.git" class="btn btn-primary">Watch Code</a>
+                  <a target="_blank" href="https://github.com/angelowen/AIFunCup.git" class="btn btn-primary">Watch Code</a>
                 </div>
             </div>
 
-          <div class="card col-lg-4 col-md-6 portfolio-item filter-oth " style="width: 18rem;">
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-cv " style="width: 18rem;">
             <div class="portfolio-links">
               <a href="https://i.imgur.com/ixSn2dh.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="https://i.imgur.com/ixSn2dh.png" alt="Card image cap"></a>
             </div>
             <div class="card-body">
               <h5 class="card-title " style="color:black">Voice Classification</h5>
               <p class="card-text">Classification of audio using a CNN + LSTM architecture and find out dog sound which got 92.78% precision</p>
-              <a href="https://github.com/angelowen/Dog_soud_classification.git" class="btn btn-primary">Watch Code</a>
+              <a target="_blank" href="https://github.com/angelowen/Dog_soud_classification.git" class="btn btn-primary">Watch Code</a>
             </div>
           </div>
 <!-- main card -->
@@ -286,7 +284,7 @@
               <div class="card-body">
                 <h5 class="card-title " style="color:black">Footprintku Competition</h5>
                 <p class="card-text">Image Recognition and Character Analysis Integration Technology</p><br/>
-                <a href="portfolio-details.html" class="btn btn-primary">See more</a>
+                <a target="_blank" href="portfolio-details.html" class="btn btn-primary">See more</a>
               </div>
           </div>
 <!-- ------------------ -->
@@ -296,8 +294,8 @@
             </div>
             <div class="card-body">
               <h5 class="card-title " style="color:black">Mango Level Classification</h5>
-              <p class="card-text">...</p>
-              <a href="https://github.com/angelowen/mango-killer" class="btn btn-primary">See more</a>
+              <p class="card-text">According to the mango image, classifying them into three quality levels: A, B, and C</p>
+              <a target="_blank" href="https://github.com/angelowen/mango-killer" class="btn btn-primary">Watch Code</a>
             </div>
           </div>
 
@@ -308,32 +306,87 @@
             <div class="card-body">
               <h5 class="card-title " style="color:black">3D-Museum</h5>
               <p class="card-text">...</p>
-              <a href="https://www.ec.ccu.edu.tw/3D-Museum/" class="btn btn-primary">See more</a>
+              <a target="_blank" href="https://www.ec.ccu.edu.tw/3D-Museum/" class="btn btn-primary">Go to Website</a>
             </div>
           </div>
           
-          <div class="card col-lg-4 col-md-6 portfolio-item filter-img " style="width: 18rem;">
+          
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-oth " style="width: 18rem;">
             <div class="portfolio-links">
-              <a href="https://i.imgur.com/F1UNbCo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="https://i.imgur.com/F1UNbCo.png" alt="Card image cap"></a>
+              <a href="assets/img/portfolio/sentiment.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="assets/img/portfolio/sentiment.jpg" alt="Card image cap"></a>
             </div>
             <div class="card-body">
-              <h5 class="card-title " style="color:black">Mango Level Classification</h5>
+              <h5 class="card-title " style="color:black">Transformer Sentiment Classification</h5>
               <p class="card-text">...</p>
-              <a href="https://github.com/angelowen/mango-killer" class="btn btn-primary">See more</a>
-            </div>
-          </div>
-          <div class="card col-lg-4 col-md-6 portfolio-item filter-img " style="width: 18rem;">
-            <div class="portfolio-links">
-              <a href="https://i.imgur.com/F1UNbCo.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="https://i.imgur.com/F1UNbCo.png" alt="Card image cap"></a>
-            </div>
-            <div class="card-body">
-              <h5 class="card-title " style="color:black">Mango Level Classification</h5>
-              <p class="card-text">...</p>
-              <a href="https://github.com/angelowen/mango-killer" class="btn btn-primary">See more</a>
+              <a target="_blank" href="https://github.com/angelowen/Bert_Sentiment_Classification.git" class="btn btn-primary">Watch Code</a>
             </div>
           </div>
 
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-oth " style="width: 18rem;">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/imbd.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="assets/img/portfolio/imbd.jpg" alt="Card image cap"></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title " style="color:black">Data Analysis</h5>
+              <p class="card-text">...</p>
+              <a target="_blank" href="https://github.com/angelowen/2020_IMBD.git" class="btn btn-primary">Watch Code</a>
+            </div>
+          </div>
 
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-web " style="width: 18rem;">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/food.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="assets/img/portfolio/food.jpg" alt="Card image cap"></a>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title " style="color:black">Chiayi Foodmap</h5>
+              <p class="card-text">...</p>
+              <a target="_blank" href="http://www2.cs.ccu.edu.tw/~wyb106u/Chiayi_foodmap/index.html" class="btn btn-primary">Go to Website</a>
+            </div>
+          </div>
+
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-img " style="width: 18rem;">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/DETR.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="assets/img/portfolio/DETR.png" alt="Card image cap"></a>
+            </div>  
+              <div class="card-body">
+                <h5 class="card-title ">Chinese Words Object Dectect</h5>
+                <p class="card-text">End-to-End  Object Detection on chinese words with Transformers</p>
+                <a target="_blank" href="https://github.com/angelowen/Transformers_ObjectDetection.git" class="btn btn-primary">Watch Code</a>
+              </div>
+          </div>
+
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-web " style="width: 18rem;">
+            <div class="portfolio-links">
+              <a href="https://i.imgur.com/bklu8Mp.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="https://i.imgur.com/bklu8Mp.png" alt="Card image cap"></a>
+            </div>  
+              <div class="card-body">
+                <h5 class="card-title ">Flask PlayerFarm</h5>
+                <p class="card-text">...</p>
+                <a target="_blank" href="https://player-list-flask.herokuapp.com/" class="btn btn-primary">Go to Website</a>
+              </div>
+          </div>
+
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-oth " style="width: 18rem;">
+            <div class="portfolio-links">
+              <a href="https://i.imgur.com/QE3J4cf.png" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="https://i.imgur.com/QE3J4cf.png" alt="Card image cap"></a>
+            </div>  
+              <div class="card-body">
+                <h5 class="card-title ">Tkinter</h5>
+                <p class="card-text">...</p>
+                <a target="_blank" href="https://github.com/angelowen/Tkinter/tree/master/myuser" class="btn btn-primary">Watch Code</a>
+              </div>
+          </div>
+
+          <div class="card col-lg-4 col-md-6 portfolio-item filter-cv " style="width: 18rem;">
+            <div class="portfolio-links">
+              <a href="assets/img/portfolio/word.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" ><img class="card-img-top img-fluid" style="border-radius:20%" src="assets/img/portfolio/word.jpg" alt="Card image cap"></a>
+            </div>  
+              <div class="card-body">
+                <h5 class="card-title ">Automatic processing for 6axis_revision Project</h5>
+                <p class="card-text">Calibrate calligraphy words based on CNN methods.</p>
+                <a target="_blank" href="https://github.com/Holisha/6axis_revision.git" class="btn btn-primary">Watch Code</a>
+              </div>
+          </div>
 
         </div>
 
@@ -493,7 +546,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>My Projects</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -502,7 +555,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> -->
 
         </div>
       </div>
